@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flowable-ui-modeler.iml" filepath="$PROJECT_DIR$/flowable-ui-modeler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowable-ui-modeler-app/flowable-ui-modeler-app.iml" filepath="$PROJECT_DIR$/flowable-ui-modeler-app/flowable-ui-modeler-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowable-ui-modeler-conf/flowable-ui-modeler-conf.iml" filepath="$PROJECT_DIR$/flowable-ui-modeler-conf/flowable-ui-modeler-conf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowable-ui-modeler-logic/flowable-ui-modeler-logic.iml" filepath="$PROJECT_DIR$/flowable-ui-modeler-logic/flowable-ui-modeler-logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowable-ui-modeler-rest/flowable-ui-modeler-rest.iml" filepath="$PROJECT_DIR$/flowable-ui-modeler-rest/flowable-ui-modeler-rest.iml" />
+    </modules>
+  </component>
+</project>

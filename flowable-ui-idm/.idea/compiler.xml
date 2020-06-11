@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flowable-ui-idm-rest" />
+        <module name="flowable-ui-idm-app" />
+        <module name="flowable-ui-idm-logic" />
+        <module name="flowable-ui-idm-conf" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flowable-ui-idm" target="1.8" />
+      <module name="flowable-ui-idm-app" target="1.8" />
+      <module name="flowable-ui-idm-conf" target="1.8" />
+      <module name="flowable-ui-idm-logic" target="1.8" />
+      <module name="flowable-ui-idm-rest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
