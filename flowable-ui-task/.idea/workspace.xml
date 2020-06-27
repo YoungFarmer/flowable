@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -32,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1d1lEoWwoIbGe7HUwMFu59ONiH0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -39,7 +43,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../flowablesrpingboot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.flowable.ui.task.application.vo" />
       <recent name="org.flowable.ui.task.model.runtime" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -96,10 +101,38 @@
       <workItem from="1591600373151" duration="1754000" />
       <workItem from="1591602581684" duration="1190000" />
       <workItem from="1591687596813" duration="14487000" />
+      <workItem from="1591947384905" duration="6415000" />
+      <workItem from="1592010501338" duration="8327000" />
+      <workItem from="1592094380037" duration="6755000" />
+      <workItem from="1592208443066" duration="4787000" />
+      <workItem from="1592267899443" duration="3169000" />
+      <workItem from="1592399022788" duration="689000" />
+      <workItem from="1592445304745" duration="673000" />
+      <workItem from="1592447088064" duration="8833000" />
+      <workItem from="1592528713793" duration="9930000" />
+      <workItem from="1592571901328" duration="639000" />
+      <workItem from="1592649315789" duration="712000" />
+      <workItem from="1592699256467" duration="703000" />
+      <workItem from="1592787817151" duration="720000" />
+      <workItem from="1592984071422" duration="695000" />
+      <workItem from="1593218148216" duration="3639000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

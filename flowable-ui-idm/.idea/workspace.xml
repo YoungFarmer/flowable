@@ -8,6 +8,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,6 +28,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1cpal7A2Ve7VodDMlnFkvON1ZED" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -32,7 +36,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flowable-ui-modeler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flowable-ui-admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,10 +90,35 @@
       <workItem from="1591602497939" duration="886000" />
       <workItem from="1591659102323" duration="1053000" />
       <workItem from="1591687531747" duration="701000" />
+      <workItem from="1591947265560" duration="4494000" />
+      <workItem from="1592008751264" duration="1954000" />
+      <workItem from="1592048239621" duration="1278000" />
+      <workItem from="1592093225813" duration="1818000" />
+      <workItem from="1592208336063" duration="759000" />
+      <workItem from="1592267778345" duration="1774000" />
+      <workItem from="1592399127796" duration="717000" />
+      <workItem from="1592447115067" duration="3051000" />
+      <workItem from="1592528812277" duration="2789000" />
+      <workItem from="1592787774935" duration="648000" />
+      <workItem from="1592983937890" duration="668000" />
+      <workItem from="1593218117589" duration="3099000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

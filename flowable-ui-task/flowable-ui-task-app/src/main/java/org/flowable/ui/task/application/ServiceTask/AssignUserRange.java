@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import org.flowable.engine.delegate.DelegateExecution;
 import org.flowable.engine.delegate.JavaDelegate;
 import org.flowable.ui.task.application.pojo.ResultData;
+import org.flowable.ui.task.application.vo.NursingServices_Users;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +19,8 @@ public class AssignUserRange implements JavaDelegate {
 
     @Override
     public void execute(DelegateExecution delegateExecution) {
-        String url = "http://localhost:8887/v1/users";
+//        String url = "http://localhost:8887/v1/users";
+        String url = "http://39.96.139.30:9080/nursingservices/v1/users";
         String html = null;
         try {
             html = HttpClientUtil.get(HttpConfig.custom().url(url));
@@ -28,17 +30,39 @@ public class AssignUserRange implements JavaDelegate {
             e.printStackTrace();
 
         }
-        ResultData resultData = null;
+//        ResultData resultData = null;
+//        if (html != null) {
+//            delegateExecution.setVariable("AssignUserRange_Status","Success");
+//            resultData = JSON.parseObject(html, ResultData.class);
+//        }
+//
+//        if (resultData != null) {
+//            logger.info("获取到了用户数据,总个数为" + resultData.getData().size());
+//            List<ResultData.DataEntity> dataEntities = new ArrayList<>();
+//            dataEntities.add(resultData.getData().get(0));
+//            dataEntities.add(resultData.getData().get(1));
+//
+//            delegateExecution.setVariable("userList", dataEntities);
+//            logger.info("分配用户范围任务已经结束");
+//
+//        }
+        List<NursingServices_Users> users = null;
         if (html != null) {
             delegateExecution.setVariable("AssignUserRange_Status","Success");
-            resultData = JSON.parseObject(html, ResultData.class);
+            System.out.println("html:"+html);
+//            System.out.println("JSON.parseObject(html):"+JSON.parseObject(html));
+//            nursingServices_users = JSON.parseObject(html, NursingServices_Users.class);
+            users = JSON.parseArray(html, NursingServices_Users.class);
+            for (NursingServices_Users nursingServicesUsers : users) {
+                System.out.println("users:"+nursingServicesUsers);
+            }
         }
 
-        if (resultData != null) {
-            logger.info("获取到了用户数据,总个数为" + resultData.getData().size());
-            List<ResultData.DataEntity> dataEntities = new ArrayList<>();
-            dataEntities.add(resultData.getData().get(0));
-            dataEntities.add(resultData.getData().get(1));
+        if (users != null) {
+            logger.info("获取到了用户数据,总个数为" + users.size());
+            List<NursingServices_Users> dataEntities = new ArrayList<>();
+            dataEntities.add(users.get(0));
+            dataEntities.add(users.get(1));
 
             delegateExecution.setVariable("userList", dataEntities);
             logger.info("分配用户范围任务已经结束");
